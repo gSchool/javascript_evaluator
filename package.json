@@ -1,0 +1,21 @@
+{
+  "name": "javascript_evaluator",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "mocha --require babel-polyfill --compilers js:babel-core/register"
+  },
+  "dependencies": {
+    "mocha": "^3.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "sinon": "^3.2.0",
+    "mocha-sinon": "^2.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0"
+  }
+}
